@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./assets/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-block: 2%;
+}
+
+.profile-card {
+    background: rgb(237, 237, 237, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 10px 17px 17px rgb(10, 10, 10, 0.25);
+    filter: drop-shadow(0 4px 5px  rgb(17, 17, 17));
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-card img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.profile-card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    background: linear-gradient(90deg, #e3881f, #e52e71, #003cff);
+    background-size: 200%;
+    background-clip: text;
+    color: transparent;
+    animation: text-animation 2s linear infinite;
+}
+
+.profile-card h2 {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.profile-card p {
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.profile-card .social-links  {
+    display: flex;
+    text-decoration: none;
+    margin: 3% 10px 0;
+    color: #0077b5;
+    font-size: 1.2rem;
+}
+
+.profile-card .social-links a img {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile-card .location, .profile-card .email, .profile-card .utc-time {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: black;
+}
+
+.profile-card a  {
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.profile-card .email {
+    color: rgb(168, 17, 158);
+    font-size: 1.3rem;
+}
+
+.profile-card .email:hover {
+    color: rgb(177, 59, 170);
+}
+
+@keyframes text-animation {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 200%;
+    
+}

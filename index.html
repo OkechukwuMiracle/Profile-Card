@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-card">
+        <img src="./assets/profile-image.jpg" alt="Profile Picture" data-testid="profilePicture">
+        <h1 data-testid="fullName">Okechukwu Miracle</h1>
+        <h2 data-testid="jobTitle">Frontend Developer</h2>
+        <p data-testid="shortBio" class="text">I am a passionate front-end developer with a keen eye for design and user experience. I love building responsive and accessible web applications. <br>My goal is to create beautiful, functional, and high-performance web experiences while continuously learning new technologies to stay ahead in the industry.</p>
+        <p class="location" data-testid="currentLocation">Lagos, Nigeria</p>
+        <a href="" class="email" data-testid="emailAddress">miracledamian15@gmail.com</a>
+
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://x.com/miracledamian15?t=Y-I4Xph17pladeAYgShdTw&s=09" target="_blank"><img src="./assets/x-logo.png" /></a>
+            <a href="https://www.instagram.com/cyburg_global?igsh=MXFraWdtNWl5YnVrOA==" target="_blank"><img src="./assets/instagram-logo.png" /></a>
+            <a href="https://wa.me/2347052719791" target="_blank"><img src="./assets/whatsapp-logo.png" /></a>
+            <a href="https://github.com/OkechukwuMiracle" target="_blank"><img src="./assets/github-logo.png" /></a>
+        </div>
+
+        <p class="utc-time" data-testid="currentTimeUTC">UTC Time: <span id="utcTime"></span></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
