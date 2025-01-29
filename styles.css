@@ -48,13 +48,13 @@ body {
 
 .profile-card h2 {
     font-size: 1.2rem;
-    color: black;
+    color: rgb(202, 198, 198);
     margin-bottom: 10px;
 }
 
 .profile-card p {
     font-size: 1rem;
-    color: black;
+    color: white;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -62,7 +62,7 @@ body {
 .profile-card .social-links  {
     display: flex;
     text-decoration: none;
-    margin: 3% 10px 0;
+    margin: 5% 10px 0;
     color: #0077b5;
     font-size: 1.2rem;
 }
@@ -77,7 +77,7 @@ body {
 .profile-card .location, .profile-card .email, .profile-card .utc-time {
     margin-top: 15px;
     font-size: 1rem;
-    color: black;
+    color: white;
 }
 
 .profile-card a  {
@@ -87,7 +87,7 @@ body {
 }
 
 .profile-card .email {
-    color: rgb(168, 17, 158);
+    color: rgb(228, 93, 219);
     font-size: 1.3rem;
 }
 
