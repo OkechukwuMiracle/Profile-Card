@@ -15,6 +15,7 @@ body {
     background-position: center;
     background-size: cover;
     padding-block: 2%;
+    overflow-X: hidden;
 }
 
 .profile-card {
@@ -54,6 +55,7 @@ body {
     color: white;
     font-weight: 700;
     margin-bottom: 10px;
+    padding-inline: 3px
 }
 
 .profile-card .social-links  {
